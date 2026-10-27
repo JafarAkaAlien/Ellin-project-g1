@@ -3,7 +3,7 @@ import Tereftash from './components/Tereftash/Tereftash'
 
 const App = () => {
   return (
-    <Tereftash/>
+    <></>
   )
 }
 
