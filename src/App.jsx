@@ -1,12 +1,17 @@
-import React from "react";
-import PopularCourses from "./components/PopularCourses/PopularCourses.jsx";
+import Header from "./components/Header/Header"
+import Footer from "./components/Footer/Footer"
+
 
 function App() {
   return (
-    <div>
-      <PopularCourses />
-    </div>
-  );
+    <>
+    <Header/>
+    <Footer/>
+    
+    
+    
+    </>
+  )
 }
 
 export default App;
