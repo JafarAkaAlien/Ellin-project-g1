@@ -12,28 +12,28 @@ function Tereftash() {
       </p>
 
       <div className="sirketler">
-        
+
         <div className="sirketkart">
           <div className="sirketikon">
-            <FontAwesomeIcon icon={faBuilding} color="white" size="lg" />
+            <i className="fa-regular fa-building"></i>
           </div>
           <h3>Dövlət Məşğulluq Agentliyi</h3>
           <span>Dövlət Qurumu</span>
         </div>
 
-        
+
         <div className="sirketkart">
           <div className="sirketikon">
-            <FontAwesomeIcon icon={faBuilding} color="white" size="lg" />
+            <i className="fa-regular fa-building"></i>
           </div>
           <h3>SOCAR</h3>
           <span>Enerji</span>
         </div>
 
-    
+
         <div className="sirketkart">
           <div className="sirketikon">
-            <FontAwesomeIcon icon={faBuilding} color="white" size="lg" />
+            <i className="fa-regular fa-building"></i>
           </div>
           <h3>PASHA Holding</h3>
           <span>Holding</span>
@@ -41,25 +41,25 @@ function Tereftash() {
 
         <div className="sirketkart">
           <div className="sirketikon">
-            <FontAwesomeIcon icon={faBuilding} color="white" size="lg" />
+            <i className="fa-regular fa-building"></i>
           </div>
           <h3>Azercell</h3>
           <span>Telekommunikasiya</span>
         </div>
 
-      
+
         <div className="sirketkart">
           <div className="sirketikon">
-            <FontAwesomeIcon icon={faBuilding} color="white" size="lg" />
+            <i className="fa-regular fa-building"></i>
           </div>
           <h3>Kapital Bank</h3>
           <span>Bank</span>
         </div>
 
-       
+
         <div className="sirketkart">
           <div className="sirketikon">
-            <FontAwesomeIcon icon={faBuilding} color="white" size="lg" />
+            <i className="fa-regular fa-building"></i>
           </div>
           <h3>ASCO</h3>
           <span>Aviasiya</span>
