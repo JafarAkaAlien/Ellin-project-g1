@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import PopularCourses from "./components/PopularCourses/PopularCourses.jsx";
 
-const App = () => {
+function App() {
   return (
-    <div>Salam G1</div>
-  )
+    <div>
+      <PopularCourses />
+    </div>
+  );
 }
 
-export default App
+export default App;
