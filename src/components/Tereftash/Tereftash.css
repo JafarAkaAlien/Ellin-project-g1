@@ -1,0 +1,63 @@
+.terefdashlar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+  font-family: inherit;
+}
+
+.terefdashlar h2 {
+  font-size: 32px;
+  color: #6025c9;
+  margin: 0 0 8px;
+}
+
+.altbasliq {
+  font-size: 12px;
+  color: #718096;
+  margin-bottom: 45px;
+}
+
+.sirketler {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px 16px;
+}
+
+.sirketkart {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 22px 15px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.sirketkart:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.sirketikon {
+  width: 44px;
+  height: 44px;
+  background: linear-gradient(135deg, #6924d9, #a78bfa);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.sirketkart h3 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #172033;
+  margin: 0 0 7px;
+}
+
+.sirketkart span {
+  font-size: 10px;
+  color: #718096;
+}
