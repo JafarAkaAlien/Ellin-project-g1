@@ -1,10 +1,20 @@
 import React from 'react'
-import Tereftash from './components/Tereftash/Tereftash'
+import Header from "./components/Header/Header"
+import Footer from "./components/Footer/Footer"
+import Home from './pages/Home/Home';
 
-const App = () => {
+
+function App() {
   return (
-    <Tereftash/>
+    <>
+    <Header/>
+    <Home />
+    <Footer/>
+    
+    
+    
+    </>
   )
 }
 
-export default App
+export default App;

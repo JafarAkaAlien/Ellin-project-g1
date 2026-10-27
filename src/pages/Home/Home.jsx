@@ -1,8 +1,17 @@
 import React from 'react'
+import Contact from '../../components/Contact/Contact'
+import Hero from '../../components/Hero/Hero'
+import PopularCourses from '../../components/PopularCourses/PopularCourses'
+
+
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+    <Hero/>
+    <PopularCourses/>
+     <Contact/>
+    </>
   )
 }
 

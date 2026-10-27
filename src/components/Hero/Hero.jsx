@@ -1,0 +1,24 @@
+
+import "./Hero.css"
+import LOGO from '../../assets/Component 1.png'
+import ARROW from '../../assets/arrow.png';
+const Hero = () => {
+  return (
+    //    Hero hissesi
+    <div className='HERO'>
+
+      <h4>  <img src={LOGO} alt="" />Dövlət Məşğulluq Agentliyi tərəfdən dəstəklənir</h4>
+      <h1>Peşəkar Gələcəyinizə
+        İnvestisiya Edin</h1>
+      <p>ELLIN MMC - Azərbaycanda müasir peşə hazırlıq və kurs proqramları ilə<br />
+        karrieranızı inkişaf etdirin</p>
+      <div className="btn">     <button className='left-btn'>
+        Kurslara baxın <img src={ARROW} alt="" /></button>
+        <button className='right-btn'>Daxil ol</button></div>
+
+
+    </div>
+  )
+}
+
+export default Hero
