@@ -1,9 +1,16 @@
-import React from 'react'
-import Tereftash from './components/Tereftash/Tereftash'
+import Header from "./components/Header/Header"
+import Footer from "./components/Footer/Footer"
+
 
 const App = () => {
   return (
-    <></>
+    <>
+    <Header/>
+    <Footer/>
+    
+    
+    
+    </>
   )
 }
 
