@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "./Hero.css"
 import LOGO from '../../assets/Component 1.png'
 import ARROW from '../../assets/arrow.png';
