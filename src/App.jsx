@@ -3,7 +3,7 @@ import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
 
 
-const App = () => {
+function App() {
   return (
     <>
     <Header/>
@@ -15,4 +15,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
